@@ -6,3 +6,65 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/examples/lingui/components/BasedOnVariableExample.tsx:7
+msgid "Cancelled"
+msgstr "Cancelled"
+
+#: src/examples/lingui/components/BasedOnVariableExample.tsx:6
+msgid "Closed"
+msgstr "Closed"
+
+#: src/examples/lingui/components/BasedOnVariableExample.tsx:8
+msgid "Completed"
+msgstr "Completed"
+
+#: src/examples/lingui/components/LazyExample.tsx:7
+msgid "Green"
+msgstr "Green"
+
+#: src/examples/lingui/components/Container.tsx:12
+msgid "Language"
+msgstr "Language"
+
+#: src/examples/lingui/components/LazyExample.tsx:11
+msgid "Lazy translation example"
+msgstr "Lazy translation example"
+
+#: src/examples/lingui/components/BasedOnVariableExample.tsx:5
+msgid "Open"
+msgstr "Open"
+
+#: src/examples/lingui/components/LazyExample.tsx:5
+msgid "Orange"
+msgstr "Orange"
+
+#: src/examples/lingui/components/BasedOnVariableExample.tsx:12
+msgid "Picking a message based on a variable"
+msgstr "Picking a message based on a variable"
+
+#: src/examples/lingui/components/PluralExample.tsx:7
+msgid "Plural example"
+msgstr "Plural example"
+
+#: src/examples/lingui/components/LazyExample.tsx:4
+msgid "Red"
+msgstr "Red"
+
+#: src/examples/lingui/components/LazyExample.tsx:6
+msgid "Yellow"
+msgstr "Yellow"
+
+#: src/examples/lingui/components/PluralExample.tsx:13
+msgid "click"
+msgstr "Click me"
+
+#: src/examples/lingui/components/PluralExample.tsx:9
+msgid "{count, plural, =0 {You clicked # times} one {You clicked # time} other {You clicked # times}}"
+msgstr "{count, plural, =0 {You clicked # times} one {You clicked # time} other {You clicked # times}}"

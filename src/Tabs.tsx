@@ -1,6 +1,7 @@
 import { AppBar, makeStyles, Tab, Tabs } from '@material-ui/core';
 import React from 'react';
 import { TabPanel } from './TabPanel';
+import { LingUIProvider } from './examples/lingui/components/LingUIProvider';
 
 function a11yProps(index: number) {
   return {
@@ -26,7 +27,7 @@ export const SimpleTabs: React.FC = () => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="sticky">
         <Tabs
           value={value}
           onChange={handleChange}
@@ -35,16 +36,20 @@ export const SimpleTabs: React.FC = () => {
           <Tab label="React-i18next" {...a11yProps(0)} />
           <Tab label="LinguiJS" {...a11yProps(1)} />
           <Tab label="React-intl" {...a11yProps(2)} />
+          <Tab label="Globalize" {...a11yProps(3)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        Item One
+        Item 1
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        <LingUIProvider />
       </TabPanel>
       <TabPanel value={value} index={2}>
         Item Three
+      </TabPanel>
+      <TabPanel value={value} index={3}>
+        Item Four
       </TabPanel>
     </div>
   );

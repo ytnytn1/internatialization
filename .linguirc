@@ -5,5 +5,5 @@
       "path": "src/examples/lingui/locales/{locale}/messages",
       "include": ["src"]
    }],
-   "format": "po"
+   "format": "json"
 }

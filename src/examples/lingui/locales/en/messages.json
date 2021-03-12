@@ -1,0 +1,16 @@
+{
+  "Cancelled": "Cancelled",
+  "Closed": "Closed",
+  "Completed": "Completed",
+  "Green": "Green",
+  "Language": "Language",
+  "Lazy translation example": "Lazy translation example",
+  "Open": "Open",
+  "Orange": "Orange",
+  "Picking a message based on a variable": "Picking a message based on a variable",
+  "Plural example": "Plural example",
+  "Red": "Red",
+  "Yellow": "Yellow",
+  "click": "Click me",
+  "{count, plural, =0 {You clicked # times} one {You clicked # time} other {You clicked # times}}": "{count, plural, =0 {You clicked # times} one {You clicked # time} other {You clicked # times}}"
+}
