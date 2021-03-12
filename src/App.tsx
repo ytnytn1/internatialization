@@ -1,5 +1,5 @@
 import React from 'react';
-import { SimpleTabs } from './components/Tabs';
+import { SimpleTabs } from './Tabs';
 
 function App() {
   return <SimpleTabs />;

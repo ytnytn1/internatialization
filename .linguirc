@@ -2,7 +2,7 @@
    "locales": ["en", "ru"],
    "sourceLocale": "en",
    "catalogs": [{
-      "path": "src/components/lingui/locales/{locale}/messages",
+      "path": "src/examples/lingui/locales/{locale}/messages",
       "include": ["src"]
    }],
    "format": "po"
