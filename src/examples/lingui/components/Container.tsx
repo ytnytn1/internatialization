@@ -10,6 +10,7 @@ import { Trans } from '@lingui/macro';
 import { BasedOnVariableExample } from './BasedOnVariableExample';
 import { PluralExample } from './PluralExample';
 import { LazyExample } from './LazyExample';
+import { SelectsExample } from './SelectlExamples';
 
 type ContainerProps = {
   language: string;
@@ -26,7 +27,7 @@ export const Container: React.FC<ContainerProps> = ({
         <Card>
           <CardContent>
             <InputLabel>
-              <Trans>Language</Trans>
+              <Trans id="language">Language</Trans>
             </InputLabel>
             <Select
               value={language}
@@ -46,8 +47,11 @@ export const Container: React.FC<ContainerProps> = ({
       <Box mb={2}>
         <LazyExample />
       </Box>
-      <Box>
+      <Box mb={2}>
         <BasedOnVariableExample />
+      </Box>
+      <Box>
+        <SelectsExample />
       </Box>
     </Box>
   );

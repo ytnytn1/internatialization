@@ -17,7 +17,9 @@ const favoriteColors = [
 export const LazyExample: React.FC = () => {
   return (
     <Card>
-      <CardHeader title={<Trans>Lazy translation example</Trans>} />
+      <CardHeader
+        title={<Trans id="header.lazy">Lazy translation example</Trans>}
+      />
       <CardContent>
         <List>
           {favoriteColors.map((color, index) => (

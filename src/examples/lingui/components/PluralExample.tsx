@@ -7,10 +7,11 @@ export const PluralExample: React.FC = () => {
   return (
     <Card>
       <CardHeader
-        title={t({ id: 'Plural example', message: 'Plural example' })}
+        title={t({ id: 'header.plural', message: 'Plural example' })}
       />
       <CardContent>
         <Plural
+          id="counter"
           value={count}
           _0="You clicked # times"
           one="You clicked # time"
@@ -19,7 +20,7 @@ export const PluralExample: React.FC = () => {
       </CardContent>
       <CardContent>
         <Button onClick={() => setCount((prev) => prev + 1)}>
-          {t({ id: 'click', message: 'Click me' })}
+          {t({ id: 'button.click', message: 'Click me' })}
         </Button>
       </CardContent>
     </Card>

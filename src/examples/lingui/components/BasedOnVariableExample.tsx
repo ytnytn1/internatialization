@@ -23,7 +23,11 @@ export const BasedOnVariableExample: React.FC = () => {
   return (
     <Card>
       <CardHeader
-        title={<Trans>Picking a message based on a variable</Trans>}
+        title={
+          <Trans id="header.basedOnVariable">
+            Picking a message based on a variable
+          </Trans>
+        }
       />
       <CardContent>
         <List>

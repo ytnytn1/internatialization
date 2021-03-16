@@ -8,7 +8,7 @@ export const LingUIProvider: React.FC = ({ children }) => {
   const [locale, setLocale] = useState(defaultLocale);
 
   useEffect(() => {
-    dynamicActivate(locale).finally(() => {});
+    dynamicActivate(locale);
   }, [locale]);
 
   return (
